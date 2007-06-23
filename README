@@ -1,0 +1,70 @@
+galago-sharp
+------------------------------------------
+Mono C# bindings for the Galago library
+
+Runtime requirements:
+  glib-sharp2-2.10.0-1
+  libgalago-0.5.2-1
+  mono-1.2.3.1-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gapi2-2.10.0-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.galago-project.org/
+
+Canonical download:
+  http://www.galago-project.org/files/releases/source/galago-sharp/
+
+-------------------------------------------
+
+Build instructions:
+  unpack galago-sharp-0.5.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./galago-sharp-0.5.0-X.cygport all
+
+This will create:
+  /usr/src/galago-sharp-0.5.0-X-src.tar.bz2
+  /usr/src/galago-sharp-0.5.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/mono/gac/galago-sharp/1.0.0.0__a09f8068634671bb/galago-sharp.dll
+  /usr/lib/mono/gac/galago-sharp/1.0.0.0__a09f8068634671bb/galago-sharp.dll.config
+  /usr/lib/mono/galago-sharp/galago-sharp.dll
+  /usr/lib/pkgconfig/galago-sharp.pc
+  /usr/share/doc/Cygwin/galago-sharp-0.5.0.README
+  /usr/share/doc/galago-sharp-0.5.0/AUTHORS
+  /usr/share/doc/galago-sharp-0.5.0/COPYING
+  /usr/share/doc/galago-sharp-0.5.0/ChangeLog
+  /usr/share/doc/galago-sharp-0.5.0/INSTALL
+  /usr/share/doc/galago-sharp-0.5.0/NEWS
+  /usr/share/doc/galago-sharp-0.5.0/README
+  /usr/share/gapi-2.0/galago-api.xml
+
+------------------
+
+Port Notes:
+
+----- version 0.5.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

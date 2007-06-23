@@ -1,0 +1,4 @@
+category: Dotnet
+requires: glib-sharp2 libgalago mono
+sdesc: "Mono C# bindings for the Galago library"
+ldesc: "Mono C# bindings for the Galago library"
